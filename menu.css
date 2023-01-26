@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: chocolate;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+ul {
+
+    margin-left: 60px;
+
+}
+
+ul li {
+    list-style:none;
+    display: inline-block; /*used to place the menu items side by side */
+    line-height: 100px;
+
+}
+
+ul li a {
+
+    
+
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial;
+    padding: 0 20px;
+    color: #1e1e1e; /*black*/
+
+
+}
+
+ul li a:hover {
+
+    color: red; /*use this to create a hyperlink*/
+}
