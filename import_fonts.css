@@ -1,0 +1,12 @@
+p {
+    font-size: 22px;
+    font-family: 'Lobster', cursive; /*copy link from font family in google fonts*/
+    font-weight: 50;
+    font-style:normal;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: orange;
+    text-decoration: underline;
+}
