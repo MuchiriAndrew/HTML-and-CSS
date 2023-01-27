@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0;
+    width: 1000px;
+}
+
+.img-Izuku {
+    width: 400px;
+    height: 400px;
+    background-image: url(img/Izuku\ Midoriya.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.img-Izuku:hover {
+    background-size: 200%;
+
+}
+
