@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*we started by making the website responsive to a smartphone*/
+.wrapper {
+    width: 100%;
+
+}
+
+.img-banner {
+    display: none;
+    
+}
+
+.img-info {
+    width: 100%;
+
+}
+
+.img-info h2 {
+    padding: 30px 30px 20px;
+    font-family: Arial;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
+
+.img-info p {
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+}
+
+.img-albumcover {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+/*a minimum width of 768px has been used for an ipad mini*/
+    .img-banner {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;    
+    }
+
+    .img-info h2 {
+        padding: 20px 0px 0px;
+    }
+    
+    .img-info p {
+        padding: 20px 0px 0px;
+    }
+
+    .img-albumcover {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+/*a minimum width of 1000px representing desktop computers*/
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .img-info {
+        width: 40%;
+        float: right;
+    }
+    
+    .img-albumcover {
+        padding-top: 0px;
+        width: 60%;
+        float: left;
+    }
+
+    .img-info h2 {
+        width: 100%;
+        padding: 20px 0px 0px 50px;
+    }
+    
+    .img-info p {
+        width: 100%;
+        padding: 20px 0px 0px 50px;
+    }
+}
