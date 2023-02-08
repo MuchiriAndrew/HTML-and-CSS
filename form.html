@@ -3,11 +3,13 @@
     <head>
         <title>Html Forms</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="form.css">
+
     </head>
 
     <body>
 
-        <form action="contactform.php" method="get">
+        <form action="contactform.php" method="post">
             <input type="text" name="email" placeholder="Write your email..."><!--faded text that gives you a hint on what you are supposed to input in the box-->
 
             <input type="text" name="email" value="Write your email..."><!--gives a default value which is editable-->
@@ -20,7 +22,18 @@
 
             <input type="password" name="pwd" placeholder="password" >
 
-            <input type="submit" name="submit">
+            <textarea name="message" placeholder="Write a message"></textarea>
+
+            <select name="car">
+                <option value="car1">None</option>
+                <option value="car1">Ford</option>
+                <option value="car1">Mercedes</option>
+                <option value="car1">Toyota</option>
+            </select>
+
+            <button type="submit" name="submit">Submit</button>
+
+            <!-- <input type="submit" name="submit"> -->
         </form>
 
 
